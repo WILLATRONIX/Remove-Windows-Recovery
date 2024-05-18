@@ -1,9 +1,3 @@
-﻿#####################
-#                   #
-## Created by Will ##
-#                   #
-#####################
-
 #set to run at recovery
 New-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\bootim.exe"
 
